@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color:black ;
+    color: white;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+.content_width{
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(22, 183, 189);
+
+}
+
+
+.name{
+    display: flex;
+    text-align: center;
+    font-size:2em;
+    display: block
+}
+
+#studentName{
+    color: #000
+}
+
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.timecontainer{
+    display: flex;
+}
+
+
+
+/* Start Button Css */
+
+.start_btn{
+    display: flex;
+    text-align: center;
+    padding-top: 25%;
+    /* display: block; */
+
+   
+}
+
+
+.start_btn > a{
+    text-decoration: none;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: aliceblue;
+    border: 2px solid white;
+    padding: 20px;
+    
+}
+
+
+
+
+.submit-btn{
+    display: flex;
+    text-align: center;
+    padding-top: 5%;
+    visibility: hidden;
+    justify-content: flex-end;
+   
+}
+
+
+.submit-btn > a{
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: aliceblue;
+    border: 2px solid white;
+    padding: 20px;
+    
+
+}
+
+
+
+/* Questions_content Css */
+
+.question_content
+ {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+}
+#questionBody{
+    visibility: hidden;
+}
+
+
+/* Options css */
+.answer_content{
+    display:flex;
+    flex-direction: column;
+    color: red;
+
+}
+
+.answer_content {
+    list-style-type: none;
+    color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.question_content ul  li{
+    list-style-type: none;
+    color: green;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main-heading"></h1>
+
+
+
+
+
+    
+let startBtn = document.getElementById('startBtn')
+let questionBody = document.getElementById('questionBody')
+let resultBody = document.getElementById('resultBody')
+let userAnswer = []
+
+function quizQuestion(ques, opt, cAns){
+    this.question = ques;
+    this.option = opt;
+    this.answer = cAns;
+}
+
+let question= [
+    new Question('js stand for ___________ ?',['JavaScriptt', 'JavaScript', 'javascrip', 'main.js'],1),
+    new Question('js stand for ___________ ?',['JavaScriptt', 'JavaScript', 'javascrip', 'main.js'],1)
+]
+
+
+
+
+const start = () =>{
+    
+    startBtn.style.display = 'none'
+    questionBody.style.visibility= "visible"
+
+
+
+    for(var i = 0; i < questions.length; i++){
+        let quesText = questions[i]['quesiton']
+    }
+}
+
+
+
+</body>
+</html>

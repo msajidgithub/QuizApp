@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz_App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="home">
+
+        <div class="content_width" id="content">
+            <div class="main_header">
+                <h1 class="logo">
+                    Quiz App
+                </h1>
+
+                <h2 class="name">
+                    Student Name </br>
+                    <span id="studentName"> </span>
+                </h2>
+
+
+                <div class="timecontainer" id="try">
+
+                    <h2 id="hour" class="timer"> 00 </h2>
+                    <span class="sep"> : </span>
+                    <h2 id="min" class="timer"> 00 </h2>
+                    <span class="sep"> : </span>
+                    <h2 id="sec" class="timer"> 00 </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="content_width">
+
+
+        <div class="start_btn">
+
+            <a href="#" id="start-quiz-btn" onClick="startQuiz()"> Start Quiz </a>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="content_width " id="questionBody">
+
+        <div class="question_content">
+            <p class="question-text" id="questionText"> </p>
+            <ol class="answer_content" id="answer-content">
+
+
+
+            </ol>
+            <h2 class="result" id="resultBody"></h2>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="content_width">
+
+
+        <div class="submit-btn">
+
+            <a href="#" id="submit-quiz-btn" onClick="submitQuiz()" > Submit Quiz </a>
+
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
